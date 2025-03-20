@@ -89,6 +89,9 @@ button:active{
     border-top: 16px solid #333;
     border-radius: 50%;
     width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+
 }
 
 @keyframes spin {
@@ -97,6 +100,10 @@ button:active{
 }
 100% {
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
 }
 }
 
